@@ -1,0 +1,56 @@
+body {
+  background: #333333;
+  color: #EAEAEA;
+  font-family: "Century Gothic revival";
+}
+
+
+#nav > ul > li {
+  display: inline-block;
+  margin-left: 1em;
+  padding: 12px;
+  color: #EAEAEA;
+  line-height: 3.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#nav button {
+  border: none;
+  background: #333333;
+  color: #EAEAEA;
+  line-height: 3.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 30px;
+
+}
+
+.container #nav{
+  position: static;
+  right: none;
+  text-align: center;
+  padding: 30px;
+}
+
+#banner {
+  overflow: hidden;
+  width: 1000px;
+  margin: 0 auto;
+  background: #333333;
+  padding: 70px 70px;
+}
+
+#banner h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: -1px;
+}
+
+#banner P {
+  font-size: 30px;
+  text-align: justify;
+  letter-spacing: -1px;
+}
